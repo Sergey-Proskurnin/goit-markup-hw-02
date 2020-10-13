@@ -20,5 +20,59 @@ text-align: left;
 Text-H1
 */
 
+.root{
+    --primary-text-color: #757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color: #ffffff;
+    --contact-text-color: rgba(255, 255, 255, 0.6);
+    --background-hero-footer: #2F303A;
+    --general-background-page: #E5E5E5;
+    --background-section-comand: #F5F4FA;
+    
 
+}
 
+.logo{
+
+}
+.logo-accent{
+
+}
+.site-nav{
+
+} 
+.list{
+
+}
+.contact{
+
+}
+.link{
+
+}
+
+.hero{
+
+}
+.hero-title{
+
+}
+
+.section{
+
+}
+
+.section-title{
+
+}
+.section-comand{
+
+}
+
+.list-portfolio{
+
+}
+.title-portfolio{
+    
+}
