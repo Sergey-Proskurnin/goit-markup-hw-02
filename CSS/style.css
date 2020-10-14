@@ -95,7 +95,7 @@ footer {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-  }
+}
 .hero .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -105,21 +105,24 @@ footer {
     text-align: center;
     letter-spacing: 0.06em;
     text-decoration: none;
-     
 }
 /*section2-feature */
 .feature-list .title {
     color: var(--title-text-color);
-    font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
-
-
+/*section3-product*/
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 .section{
 
 }
