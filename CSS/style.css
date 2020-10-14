@@ -29,11 +29,19 @@ Text-H1
     --background-hero-footer: #2F303A;
     --general-background-page: #E5E5E5;
     --background-section-comand: #F5F4FA;
-    
-
 }
 
-.logo{
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+
+    .logo{
+        color: var(--title-text-color);
+        font-family: Raleway, sans-serif;
 
 }
 .logo-accent{
