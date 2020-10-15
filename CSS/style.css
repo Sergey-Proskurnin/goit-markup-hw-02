@@ -7,19 +7,7 @@
 
 /* font-family: 'Raleway', sans-serif;
    font-family: 'Roboto', sans-serif; 
-
-Text-logo:
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-align: left;
-
-Text-H1
 */
-
 :root{
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -30,7 +18,6 @@ Text-H1
     --general-background-page: #E5E5E5;
     --background-section-comand: #F5F4FA;
 }
-
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -38,6 +25,7 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
+
 }
 /* Logo */
 .logo {
@@ -76,11 +64,8 @@ body {
 .contact .link:focus {
 color: var(--accent-color);
 }
-
-
-
-.link{
-
+.list {
+    list-style: none;
 }
 /*section1-hero */
 .hero,
@@ -123,20 +108,56 @@ footer {
     line-height: 1.17;
     text-align: center;
 }
-.section{
-
+/*section4-comand*/
+.section-comand {
+    background-color: var(--background-section-comand);
 }
-
-.section-title{
-
+.comand-list li {
+    background-color: var(--primary-white-color);
 }
-.section-comand{
-
+.comand-list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
-
-.list-portfolio{
-
+/*section-portfolio*/
+.list-button .button {
+    background-color: var(--background-section-comand);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
 }
-.title-portfolio{
+.list-button .button:hover,
+.list-button .button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.section-portfolio{
+    background-color: var(--general-background-page);
+}
+.list-portfolio li {
+    background-color: var(--primary-white-color);
+}
+.list-portfolio .link {
+    text-decoration: none; 
+}
+.title-portfolio {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+    letter-spacing: 0.06em;
     
 }
+
+
+
+
+.section-title{
+}
+.list-portfolio{
+}
+
