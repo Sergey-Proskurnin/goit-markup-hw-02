@@ -25,7 +25,6 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
-
 }
 /* Logo */
 .logo {
@@ -150,22 +149,27 @@ footer {
     line-height: 2;
     text-decoration: none;
     letter-spacing: 0.06em;
-    
 }
 .category-product {
 color: var(--primary-text-color);    
 font-size: 16px;
 line-height: 1.88;
-
-
-
-
 }
-
-
-
-.section-title{
+/*footer-address*/
+.logo-footer{
+color: var(--primary-white-color);
 }
-.list-portfolio{
+.footer-address{ 
+color: var(--primary-white-color);
+font-style: normal;
 }
-
+.contact .link-contact {
+    color: var(--contact-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+} 
+.contact .link-contact:hover,
+.contact .link-contact:focus {
+color: var(--accent-color);
+}
